@@ -12,11 +12,11 @@ Gem::Specification.new do |s|
 http://isitrubyjruby.com as its datastore.  Be sure to update the website with
 your experiences!}
   s.email = ["james.abley@gmail.com"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.files = [".autotest", "History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/isitjruby.rb", "lib/rubygems/commands/isitjruby_command.rb", "lib/rubygems_plugin.rb"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
+  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/isitjruby.rb", "lib/rubygems/commands/isitjruby_command.rb", "lib/rubygems_plugin.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://isitrubyjruby.com}
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{rubygems-isitjruby}
   s.rubygems_version = %q{1.3.1}
