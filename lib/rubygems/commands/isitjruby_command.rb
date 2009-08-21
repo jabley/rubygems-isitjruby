@@ -6,7 +6,7 @@ require 'isitjruby'
 ##
 # gem command for querying the jruby status of installed gems
 
-class Gem::Commands::IsitJRubyCommand < Gem::Command
+class Gem::Commands::IsitjrubyCommand < Gem::Command
 
   include Gem::VersionOption
   include Gem::Text
